@@ -30,7 +30,7 @@ const Tabs: React.FC<TabsProps> = ({ data }) => {
   };
   return (
     <>
-      <div className="w-full">
+      <div className="w-full bg-[#F7FCFF]">
         <ul className="flex mb-0 list-none flex-row w-[20rem] overflow-scroll no-scrollbar">
           {data.sections.map((section, index) => (
             <>
@@ -61,7 +61,7 @@ const Tabs: React.FC<TabsProps> = ({ data }) => {
           ))}
         </ul>
 
-        <div className="grid grid-cols-4 w-fit overflow-scroll no-scrollbar">
+        <div className="flex overflow-scroll no-scrollbar">
           <div className="flex flex-col w-20 sm:w-24 md:w-40 lg:w-56">
             <div className="flex flex-col justify-center gap-2 p-4 h-32 border-b border-r border-t">
               <h1 className="text-[8px] md:text-[12px] font-bold">
