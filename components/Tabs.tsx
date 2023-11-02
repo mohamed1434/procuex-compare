@@ -62,7 +62,7 @@ const Tabs: React.FC<TabsProps> = ({ data }) => {
         </ul>
 
         <div className="flex overflow-scroll no-scrollbar">
-          <div className="flex flex-col w-20 sm:w-24 md:w-40 lg:w-56">
+          <div className="flex flex-col w-20 sm:w-24 md:w-40 lg:w-56 sticky -left-[1px] bg-[#F7FCFF]">
             <div className="flex flex-col justify-center gap-2 p-4 h-32 border-b border-r border-t">
               <h1 className="text-[8px] md:text-[12px] font-bold">
                 RFQ Details
